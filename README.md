@@ -17,3 +17,28 @@ Freelancers browse available jobs and submit tailored Proposals.
 The Match: Clients review applications and select the best developer for the task.
 
 This project serves as a backend laboratory to implement scalable patterns using NestJS and AWS Serverless architecture.
+
+
+## Tech Stack & Tools
+
+### Core Backend
+* **Language:** TypeScript (Strict Mode)
+* **Framework:** NestJS (Modular Architecture)
+* **ORM:** Prisma
+* **Database:** PostgreSQL (via Docker)
+
+### Cloud & Infrastructure (AWS Ecosystem)
+* **Compute:** AWS Lambda (Serverless approach)
+* **Auth:** AWS Cognito (Identity Provider)
+* **Storage:** AWS S3 (Portfolio assets & project briefs)
+* **API Gateway:** Request routing and throttling
+
+### DevOps & Quality Assurance
+* **CI/CD:** GitHub Actions
+* **Code Quality:** Husky & lint-staged (Pre-commit hooks)
+* **Security:** GitHub CodeQL & Dependabot
+* **Documentation:** Swagger (OpenAPI 3.0)
+* **Testing:** Jest (Unit & Integration)
+
+## 🏗 System Architecture
+The project follows a decoupled approach, ensuring that business logic remains independent of external frameworks and cloud providers.
